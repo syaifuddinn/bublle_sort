@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cstdlib>
+#include <time.h>
+using namespace std;
+
+int main()
+{
+    int x;
+    srand(time(0));
+    for(x=0; x<50; x++)
+    {
+        cout<<(rand()%100+1)<<" ";
+    }
+}
